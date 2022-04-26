@@ -2,7 +2,7 @@
 
 1. connect the Raspberry Pi zero with the display with FPC HDMI cable and a Micro USB to Micro USB cable;
 2. Use the img Raspberry Pi OS Lite (Legacy): https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-legacy for raspberry pi (the Lite version, the one with graphic interface will causse the RPi over ehat and crash)
-3. Set up the Pi WiFi connection by command $ raspi-config -> Network -> SSID -> password;
+3. Set up the Pi WiFi and SSH by using: ```raspi-config```;
 4. Set up resolution by command $ ``` raspi-config -> Display Options -> Resolution -> Mode 4 1280x720```;
 5. checking the hostname of the Pi: ``` hostname -I ```
 6. ssh to Pi: ssh pi@IP address got from the last step;
