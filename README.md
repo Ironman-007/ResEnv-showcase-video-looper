@@ -4,7 +4,7 @@
 2. Use the img Raspberry Pi OS Lite (Legacy): https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-legacy for raspberry pi (the Lite version, the one with graphic interface will causse the RPi over ehat and crash)
 3. Set up the Pi WiFi connection by command $ raspi-config -> Network -> SSID -> password;
 4. Set up resolution by command $ raspi-config -> display configuration -> resolution;
-5. checking the hostname of the Pi: ''' hostname -I '''
+5. checking the hostname of the Pi: hostname -I
 6. ssh to Pi: ssh pi@IP address got from the last step;
 7. install omxplayer: $ sudo apt-get install omxplayer;
 8. copy video files from host machine: https://unix.stackexchange.com/questions/106480/how-to-copy-files-from-one-machine-to-another-using-ssh
